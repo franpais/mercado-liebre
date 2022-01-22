@@ -1,0 +1,53 @@
+main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+body main {
+    padding-top: 100px;
+}
+
+.contenedor-input-text{
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+}
+
+.dentro-del-form {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+}
+
+.button-login {
+    color: white;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.contenedor-input-button {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    background-color: #03264C;
+}
+

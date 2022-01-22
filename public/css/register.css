@@ -1,0 +1,83 @@
+main form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    padding-top: 160px;
+}
+
+.contenedor-input-text-registra {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+}
+
+.dentro-del-form {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+}
+
+.button-login {
+    color: white;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.contenedor-input-button-registra {
+    display: flex;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
+    background-color: #03264C;
+}
+
+.titulo-registra {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.interes-registra {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.interes-tick {
+    display: inline-block;
+    margin: 5px;
+}
+
+.perfil-tick {
+    padding-top: 10px;
+}
+
+.tick1 {
+    padding: 10px;
+}
+
+.tick2 {
+    padding: 10px;
+}
+
+.file-edit {
+    padding: 10px;
+}

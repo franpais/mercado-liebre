@@ -1,0 +1,225 @@
+header {
+    background-color: #EAC926;
+    padding: 5px;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fotos-de-la-pag {
+    width: 100%;
+}
+
+.fotos-de-la-pag-banner {
+    width: 100%;
+    margin-top: 133px;
+}
+
+.titulares {
+    font-size: 24px;
+    text-align: left;
+    color: #666666;
+    padding: 10px;
+}
+
+.precios {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+
+.fa-truck {
+    color: #39b54a;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
+.cuerpos-de-texto {
+    font-size: 12px;
+}
+
+.nombres-de-productos {
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 450ms;
+}
+
+article:hover .nombres-de-productos {
+    opacity: 1;
+}
+
+.centrar {
+    text-align: center;
+    padding: 10px;
+}
+
+.iconos{
+    font-size: 2em;
+    color: #03264C;
+    margin-bottom: 10px;
+}
+
+.burger-menu{
+    text-align: center;
+    color: white;
+    width: 30px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #03264C;
+}
+
+article {
+    padding-bottom: 10px;
+    position: relative;
+}
+
+main {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+.descripcion {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    text-align: left;
+}
+
+nav {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+}
+
+.create-form {
+    padding: 20px 15px;
+}
+
+.control-formulario {
+    margin-bottom: 15px;
+}
+
+.control-formulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control- {
+    width: 100%;
+    padding: 8px 8px;
+}
+
+.boton-formulario {
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/** {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}*/
+
+main section article .flex-container {
+    right: 20px;
+    top: -15px;
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -80%;
+    top: 15px;
+}
+
+.precios-descuentos {
+    display: flex;
+    height: 40px;
+    align-items: baseline;
+}
+
+main section article {
+    width: 100%;
+    background-color: white;
+}
+
+.contenedor-barra-busqueda {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+}
+
+.barra-busqueda {
+        border: none;
+        background: none;
+        outline: none;
+        height: 100%;
+        width: 80%;
+}
+
+.logo-principal {
+    width: 50%;
+}
+
+.main-header-topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
