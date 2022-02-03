@@ -56,5 +56,14 @@ footer {
         display: flex;
         justify-content: center;
     }
+
+    .form-login {
+        padding-bottom: 265px;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
 }
 

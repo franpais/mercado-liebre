@@ -43,6 +43,7 @@
     main section {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     main section article {
