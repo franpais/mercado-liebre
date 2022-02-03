@@ -85,10 +85,10 @@
     main form {
         margin-right: 200px;
         margin-left: 200px;
-        padding-top: 175px;
+        padding-top: 205px;
     }
 
-    .nombres-de-productos {
+    /*.nombres-de-productos {
         font-size: 20px;
         background-color: rgba(0,0,0,0.5);
         color: white;
@@ -108,5 +108,46 @@
     
     article:hover .nombres-de-productos {
         opacity: 1;
+    }*/
+
+    .articulos-container {
+        height: 490px;
+        display: flex;
+        justify-content: center;
+    }
+
+    article {
+        padding-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 400px;
+        overflow: hidden;
+        transition: all 100ms;
+    }
+
+    article:hover {
+        height: 456px;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .nombres-de-productos {
+        color: black;
+        background-color: white;
+    }
+
+    .flex-container {
+        transition: all 100ms;
+    }
+
+    .flex-container:hover {
+        transform: rotate(-90deg);
+    }
+
+    main section article {
+        width: 300px;
+    }
+
+    .footer-container{
+        display: flex;
     }
 }

@@ -51,3 +51,10 @@ footer {
     background-color: #03264C;
 }
 
+@media (min-width: 768px) {
+    .footer-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+

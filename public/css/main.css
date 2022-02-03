@@ -78,6 +78,11 @@ article:hover .nombres-de-productos {
     font-size: 2em;
     color: #03264C;
     margin-bottom: 10px;
+    transform: all 100ms
+}
+
+.iconos:hover{
+    color: #EAC926
 }
 
 .burger-menu{
@@ -223,3 +228,4 @@ main section article {
     top: 0;
     z-index: 100;
 }
+
